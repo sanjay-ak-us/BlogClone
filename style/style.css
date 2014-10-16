@@ -58,7 +58,23 @@ body{
 	font-style:italic;
 }
 
-/* Footer */
+.header-right a{
+	display:inline-block;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serfi;
+	font-size:14px;
+	height: 42px;
+	width:42px;
+	vertical-align:middle;
+	text-align:center;
+}
+
+.header-right a i:before{
+	display:block;
+	padding:15px 0;
+}
+
+
+/* END - Footer */
 
 .one-col, .four-col, .eight-col{
 	box-sizing:border-box;
