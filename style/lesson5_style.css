@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url(../img/mars.0_standard_1280.0.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:50% 50%;
+}
+
+.header{
+	height:3em;
+	width:100%;
+	margin-bottom:2em;
+	padding-top:0.5em;
+	position:fixed;
+	display:block;
+	box-sizing:border-box;
+	align-content:center;
+	background-color:rgba(95,118,133,0.8);
+	color:#FFF;
+}
+
+.header a{
+	color:#FFF;
+}
+
+.header a:hover{
+	color:#FFF200;
+}
+
+
+.header-left{
+	position:absolute;
+	left:1em;
+	display:inline-block;
+	align-content:center;
+	font-size:200%;
+	font-style:italic;
+}
+
+.header-right{
+	position:absolute;
+	left:auto;
+	right:1em;
+	display:inline-block;
+	padding-top:0.5em;
+	font-family:'Alright Sans', sans-serif;
+	font-size:100%;
+}
+
+.header-right>span{
+	font-size:70%;
+}
+
+.header-right .m-explainer__close{
+	font-size:150%;
+	font-style:italic;
+}
+
+/* Footer */
+
+.one-col, .four-col, .eight-col{
+	box-sizing:border-box;
+	margin-top:5em;
+}
+
+.four-col{
+	position:fixed;
+}
+
+.card-header, .card-footer{
+	height:2em;
+	background-color:rgb(255, 242, 0);
+	box-sizing:border-box;
+	color:#888;
+}
+
+a{
+	text-decoration: none;
+	display: inline;
+	font-family: inherit;
+}
+
+.m-explainer-previous{
+	height: 100%;
+	width: 5%;
+	position:relative;
+	left:0.5em;
+	top:-2px;
+	text-align: left;
+	float: left;
+	font-size: 1.75em;
+	font-style: normal;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color:#888;
+}
+
+.m-explainer-card-count{
+	height:100%;
+	width:90%;
+	margin:0;
+	text-align:center;
+	display:inline-block;
+	float:left;
+	font-size:1em;
+	padding-top:0.5em;
+}
+
+.m-explainer-next{
+	height:100%;
+	width:5%;
+	position:absolute;
+	left:auto;
+	right:0.5em;
+	font-size:1.75em;
+	flot:left;
+	text-align: right;	
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color:#888;
+}
