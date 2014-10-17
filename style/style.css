@@ -8,6 +8,9 @@ body{
 	background-position:50% 50%;
 }
 
+.grid{
+}
+
 .header{
 	height:3em;
 	width:100%;
@@ -96,31 +99,70 @@ body{
 }
 
 .card-list-container{
-	background-color:#fff200;
+	background-color:#ffeb00;
 	margin-right:20%;
+	font-family:Alright Sans, "Segoe", "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:90%;
 }
 
 .m-explainer-header{
 	height:16em;
-	padding:15% 10%;
+	padding:15% 5%;
+	line-height:1.2;
+	
 }
 
+.m-explainer-header h2{
+	font-size:150%;
+	font-weight:bold;
+	margin-bottom:1em;
+}
+
+.m-explainer-header p{
+	font-size:70%;
+}
+
+.m-explainer-header a{
+	color:#6d98a8;
+}
 .m-explainer__toc-scroller{
 	text-align:center;
 	background-color:#2a2a2a;
 	color:#777;
 	cursor:pointer;
-	line-height:1;
+	line-height:1.5;
 }
 
 .m-explainer__toc{
-	padding:1em;
+	padding:2em 1em 1em 2em;
 	background-color:#313131;
 	color:#666;
 	overflow:auto;
-	list-style:none;
 	height:18em;
+	list-style-type:decimal;
 }
+
+.m-explainer__toc li{
+	margin:1em 0;
+}
+
+.m-explainer__toc li:first-child{
+	margin-top:0;
+}
+
+.m-explainer__toc li:last-child{
+	margin-bottom:0;
+}
+
+.m-explainer__toc a{
+	text-decoration:none;
+	color:#aaa;
+}
+
+.m-explainer__toc a:hover{
+	color:#fff200;
+}
+
 /* END - Card List*/
 
 /* Card viewer */
@@ -144,7 +186,28 @@ body{
 }
 
 .card-text{
-	padding: 10% 10%;	
+	padding: 5% 10%;
+	font-family:Alright Sans, "Segoe", "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	line-height:1.75;
+	color:#5e605f;	
+}
+
+.card-text h1{
+	font-size:150%;
+	font-weight:800;
+	margin-bottom:1em;
+}
+
+.card-text p{
+	margin-bottom:1.5em;
+}
+
+.card-text .align-right{
+	float:right;
+	padding:0.2em 0.2em 0 0.2em;
+	margin-left:0.5em;
+	box-sizing:border-box;
+	border:1px solid #aaa;
 }
 
 a{
