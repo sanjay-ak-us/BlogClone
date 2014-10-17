@@ -68,6 +68,10 @@ body{
 	padding-right: 1em;
 }
 
+.header-right a{
+	font-size:75%;
+}
+
 /*
 .header-right a{
 	display:inline-block;
@@ -183,6 +187,10 @@ body{
 
 .card-footer{
 	border-top:1px solid #888;
+}
+
+.card-footer a{
+	color:#888888;
 }
 
 .card-text{
