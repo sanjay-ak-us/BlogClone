@@ -57,6 +57,14 @@ body{
 	font-size:125%;
 	font-style:italic;
 }
+.header-right a, .card-footer a{
+	padding: 0 0.5em;
+}
+
+.header-right a:last-child{
+	padding-right: 1em;
+}
+
 /*
 .header-right a{
 	display:inline-block;
@@ -76,20 +84,67 @@ body{
 
 /* END - Footer */
 
-.one-col, .four-col, .eight-col{
+.one-col, .card-list, .card{
 	box-sizing:border-box;
 	margin-top:5em;
 }
 
-.four-col{
-	position:fixed;
+/* Card list*/
+.card-list{
+	position: fixed;
+	left: 2em;
+}
+
+.card-list-container{
+	background-color:#fff200;
+	margin-right:20%;
+}
+
+.m-explainer-header{
+	height:16em;
+	padding:15% 10%;
+}
+
+.m-explainer__toc-scroller{
+	text-align:center;
+	background-color:#2a2a2a;
+	color:#777;
+	cursor:pointer;
+	line-height:1;
+}
+
+.m-explainer__toc{
+	padding:1em;
+	background-color:#313131;
+	color:#666;
+	overflow:auto;
+	list-style:none;
+	height:18em;
+}
+/* END - Card List*/
+
+/* Card viewer */
+.card{
+	background-color:#fff;
+	margin-right:4em;
 }
 
 .card-header, .card-footer{
 	height:2em;
-	background-color:rgb(255, 242, 0);
 	box-sizing:border-box;
 	color:#888;
+}
+
+.card-header{
+	background-color:rgb(255, 242, 0);
+}
+
+.card-footer{
+	border-top:1px solid #888;
+}
+
+.card-text{
+	padding: 10% 10%;	
 }
 
 a{
@@ -112,7 +167,23 @@ a{
 	color:#888;
 }
 
-.m-explainer-card-count{
+.m-explainer-next{
+	height: 100%;
+	width: 5%;
+	position:relative;
+	left:auto;
+	top:-2px;
+	right:0.5em;
+	text-align: right;
+	float: left;
+	font-size: 1.75em;
+	font-style: normal;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color:#888;
+}
+
+
+.m-explainer-card-count, .m-explainer-card-social{
 	height:100%;
 	width:90%;
 	margin:0;
@@ -123,15 +194,14 @@ a{
 	padding-top:0.5em;
 }
 
-.m-explainer-next{
+
+.m-explainer-card-social{
 	height:100%;
-	width:5%;
-	position:absolute;
-	left:auto;
-	right:0.5em;
-	font-size:1.75em;
-	flot:left;
-	text-align: right;	
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	color:#888;
+	width:90%;
+	margin:0;
+	text-align:center;
+	display:inline-block;
+	float:left;
+	font-size:75%;
+	padding-top:0.7em;
 }

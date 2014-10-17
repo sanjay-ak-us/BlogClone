@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-/* DEBUG */
+/* DEBUG 
 .grid{
 	background-color:#0FA1F3;
 }
@@ -13,7 +13,7 @@
 	background-color:#97F663;
 }
 
-/* DEBUG */
+ DEBUG */
 
 /* GRID: Basic structure*/
 *, *:before, *:after{
